@@ -4,4 +4,4 @@ Bella's maps for the 2024 map challenge.
 
 ## 01. Points
 ### Fruit Trees in Berkeley, CA
-![Map fo Fruit Trees in Berkeley, CA](01_points/01_points.png))
+![Map fo Fruit Trees in Berkeley, CA](01_points/01_points.png)
