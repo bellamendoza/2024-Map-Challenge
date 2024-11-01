@@ -4,6 +4,6 @@ Bella's maps for the 2024 map challenge.
 
 ## 01. Points
 ### Fruit Trees in Berkeley, CA
-
+<p align="center">
 <img src="https://github.com/bellamendoza/2024-Map-Challenge/blob/main/01_points/01_points.png" width="450" margin="0 auto">
-
+</p>
