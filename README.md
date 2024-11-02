@@ -11,7 +11,7 @@ Bella's maps for the 2024 map challenge.
 
 There are fruit trees all over Berkeley and often in public spaces --in the parks and community gardens, on campus, and on the sidewalks. Using data from [Forage Berkeley](https://forageberkeley.blogspot.com/), a public map that the community can contribute to, I mapped a few of my favorite fruit trees.
 
-
+<br><br>
 ## 02. Lines
 ### Shakira's Las Mujeres Ya No Lloran Tour
 <br>
