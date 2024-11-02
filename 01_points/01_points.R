@@ -7,6 +7,24 @@ library(viridis)
 library(showtext)
 library(paletteer)
 library(extrafont)
+library(sf)
+
+# Load Google font
+font_add_google("IBM Plex Mono", "ibm-plex-mono")
+showtext_auto()  # Enable showtext
+
+# Load data
+fruit_data = read.csv("/Users/isabellamendoza/Desktop/2024-Map-Challenge/01_points/berkeley_fruit_trees.csv")
+alameda_county <- tigris::counties(state = 'CA') 
+
+
+# Load street data for Alameda County
+alameda_streets <- tigris::roads(state = 'CA', county = '001') %>%
+  st_transform(st_crs(alameda_county)) # Ensure the CRS matches
+
+# Convert points data to sf
+points_sf <- st_as_sf(fruit_data, coords = c("Lat", "Long"), crs = 4326)
+points_sf <- st_transform(points_sf, st_crs(alameda_county))
 
 # Plot map
 ggplot() +
@@ -33,7 +51,7 @@ ggplot() +
       lineheight = 0.5
     ),
     
-    # Subtitle elemen
+    # Subtitle element
     plot.subtitle = element_textbox_simple(
       family = "ibm-plex-mono", fill = "#173863", color = "#70d4ff",
       padding = margin(5, 10, 10, 10),  # Adjust padding to match title

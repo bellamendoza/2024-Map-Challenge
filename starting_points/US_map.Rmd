@@ -1,0 +1,48 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+```{r}
+# Import Packages
+library(tigris)
+library(ggplot2)
+library(ggtext)
+library(RColorBrewer)
+library(viridis)
+library(showtext)
+library(paletteer)
+library(extrafont)
+library(sf) 
+
+# Load Google font
+font_add_google("IBM Plex Mono", "ibm-plex-mono")
+showtext_auto()  # Enable showtext
+
+# Use options to cache the shapefiles locally
+options(tigris_use_cache = TRUE)
+
+# Load US states shapefile
+us_states <- tigris::states(cb = TRUE)
+
+
+# Plot using ggplot2
+ggplot() +
+  geom_sf(data = us_states, fill = "white", color = "black", size = 0.2) +
+  xlim(125, 68) +
+  ylim(25, 50) +
+  theme_minimal() +
+  labs(title = "Map of the United States") +
+  theme(
+    plot.title = element_text(hjust = 0.5, size = 20, face = "bold"),
+    panel.grid.major = element_blank(),   # Remove major grid lines
+    panel.grid.minor = element_blank(),    # Remove minor grid lines
+    axis.title = element_blank(),
+    axis.text = element_blank(),
+    axis.ticks = element_blank()
+  )
+
+```
+
+
