@@ -19,4 +19,4 @@ There are fruit trees all over Berkeley and often in public spaces --in the park
   <img src="https://github.com/bellamendoza/2024-Map-Challenge/blob/main/02_lines/02_lines.png"
 </p>
 
-I wanted to map a North America tour, but it was looking ugly, so I mapped just the US portion of Shakira's Las Mujeres Ya No Lloran tour, which probably explains why this tour is focused on the coasts. In the future, I'd be interested in mapping a US tour from a less international artist. 
+I wanted to map a North America tour, but it was looking ugly, so I mapped just the US portion of Shakira's Las Mujeres Ya No Lloran tour, which probably explains why this tour is focused on the coasts. In the future, I'd be interested in mapping a US tour from a less internationally famous artist. 
