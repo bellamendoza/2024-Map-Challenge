@@ -63,7 +63,7 @@ ggplot(data = us_states) +
     legend.background = element_rect(fill = "black", color = "black"),
     legend.title = element_text(color = "#fff9ed", face = "bold", size = 16, family = "ibm-plex-mono"),
     legend.text = element_text(size = 14, family = "ibm-plex-mono", color = "#fff9ed"),
-    legend.position = c(.85, .25),
+    legend.position = "none",
     panel.border = element_blank(),
     legend.key.size = unit(0.3, "cm"),
     legend.spacing.y = unit(0.54, "cm")
