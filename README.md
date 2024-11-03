@@ -20,3 +20,13 @@ There are fruit trees all over Berkeley and often in public spaces --in the park
 </p>
 
 I wanted to map a North America tour, but it was looking ugly, so I mapped just the US portion of Shakira's Las Mujeres Ya No Lloran tour, which probably explains why this tour is focused on the coasts. In the future, I'd be interested in mapping a US tour from a less internationally famous artist. 
+
+
+## 03. Polygons
+### Latines in the United States
+<br>
+<p align="center">
+  <img src="https://github.com/bellamendoza/2024-Map-Challenge/blob/main/02_lines/02_lines.png"
+</p>
+
+In celebration of Dia De Los Muertos, I made a Latine population density map, showing the distribution of Latines by county.
