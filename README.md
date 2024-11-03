@@ -26,7 +26,7 @@ I wanted to map a North America tour, but it was looking ugly, so I mapped just 
 ### Latines in the United States
 <br>
 <p align="center">
-  <img src="https://github.com/bellamendoza/2024-Map-Challenge/blob/main/02_lines/02_lines.png"
+  <img src="https://github.com/bellamendoza/2024-Map-Challenge/blob/main/03_polygons/03_polygons.png">
 </p>
 
 In celebration of Dia De Los Muertos, I made a Latine population density map, showing the distribution of Latines by county.
